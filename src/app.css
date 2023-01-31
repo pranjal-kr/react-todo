@@ -1,0 +1,45 @@
+body {
+    background-image: url(todotheme2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.container {
+    height: 499px;
+    width: 250px;
+    padding: 20px;
+    margin: 10px;
+    background: rgba(39, 34, 34, 0.75);
+    /* code for blurring the box */
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    /* code for blurring the box */
+    text-align: center;
+    color: yellow;
+    overflow-y: scroll;
+    font-family: 'Orbitron', sans-serif;
+
+}
+
+.classname {
+    position: absolute;
+    right: 8%;
+    top: 0.1%;
+    font-family: 'Orbitron', sans-serif;
+
+}
+
+.list{
+    text-align: left;
+    font-family: 'Orbitron', sans-serif;
+
+}
+.titlle{
+   text-align: center;
+    color: yellow;
+    
+}
