@@ -5,6 +5,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    font-family: 'Chakra Petch', sans-serif;
 }
 
 .container {
@@ -23,7 +24,7 @@ body {
     text-align: center;
     color: yellow;
     overflow-y: scroll;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
 
 }
 
@@ -31,17 +32,61 @@ body {
     position: absolute;
     right: 8%;
     top: 0.1%;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
 
 }
 
 .list{
     text-align: left;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
 
 }
 .titlle{
    text-align: center;
     color: yellow;
-    
+    font-size: 25px;
+    text-decoration: underline;
 }
+.me{
+    bottom: 10;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+   
+    border-radius: 10px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-radius: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb { 
+    border-radius: 7px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-radius: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  
+  /* Handle on hover */
+  /* ::-webkit-scrollbar-thumb:hover {
+    background: black; 
+  } */
+  .intro{
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    color: rgb(255, 136, 0);
+    text-shadow:0 8px 32px 0 rgba(0, 0, 0, 0.37); ;
+    backdrop-filter: blur(12px);
+    border-radius: 10px;
+
+  }

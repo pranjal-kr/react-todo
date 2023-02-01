@@ -27,7 +27,11 @@ function App() {
   // )
   return(
     <div className="thebody">
+      <div className="intro">
+        {/* <h1 className="intro-">Organize your day  with to-do_js</h1> */}
+      </div>
       <div className="titlle"><h1>Todo List</h1></div>
+
       {/* <h1 className="greeting">Welcome</h1> */}
    <div className="classname">
     <div className="container">
@@ -37,7 +41,8 @@ function App() {
       <li><h2>Breakfast</h2></li><br />
       <li><h2>Study</h2></li><br />
       <li><h2>Walk Dog</h2></li><br />
-      <li><h2>Realize that you don't have one</h2></li><br />
+      <li><h2>Realize that you don't have one</h2></li><br /><br /><br />
+      
     </ul>
     </div>
    </div>
